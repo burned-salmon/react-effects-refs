@@ -1,16 +1,11 @@
 import React from "react";
-import ProfileViewer from "./ProfileViewer";
-import ProfileViewerWithSearch from "./ProfileViewerWithSearch";
+import Deck from "./Deck";
 
 const App = () => (
   <div className="App">
     <div>
-      <h1>Profile Viewer</h1>
-      <ProfileViewer />
-    </div>
-    <div>
-      <h1>Profile Viewer With Search</h1>
-      <ProfileViewerWithSearch/>
+      <h1>Cards</h1>
+      <Deck />
     </div>
   </div>
 );
